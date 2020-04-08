@@ -1,4 +1,4 @@
-package com.android.tusitio.ui.slideshow
+package com.android.tusitio.view.slideshow
 
 import android.os.Bundle
 import android.view.LayoutInflater

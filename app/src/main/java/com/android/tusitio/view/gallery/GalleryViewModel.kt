@@ -1,13 +1,13 @@
-package com.android.tusitio.ui.tools
+package com.android.tusitio.view.gallery
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class ToolsViewModel : ViewModel() {
+class GalleryViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is tools Fragment"
+        value = "This is gallery Fragment"
     }
     val text: LiveData<String> = _text
 }

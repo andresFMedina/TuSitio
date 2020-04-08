@@ -1,4 +1,4 @@
-package com.android.tusitio.ui.home
+package com.android.tusitio.view.home
 
 import android.os.Bundle
 import android.view.LayoutInflater

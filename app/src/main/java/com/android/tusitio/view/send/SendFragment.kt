@@ -1,4 +1,4 @@
-package com.android.tusitio.ui.send
+package com.android.tusitio.view.send
 
 import android.os.Bundle
 import android.view.LayoutInflater

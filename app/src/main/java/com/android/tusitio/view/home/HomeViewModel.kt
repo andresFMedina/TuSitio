@@ -1,4 +1,4 @@
-package com.android.tusitio.ui.home
+package com.android.tusitio.view.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
