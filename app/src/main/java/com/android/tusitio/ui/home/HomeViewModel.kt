@@ -1,13 +1,13 @@
-package com.android.tusitio.view.tools
+package com.android.tusitio.ui.home
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 
-class ToolsViewModel : ViewModel() {
+class HomeViewModel : ViewModel() {
 
     private val _text = MutableLiveData<String>().apply {
-        value = "This is tools Fragment"
+        value = "This is home Fragment"
     }
     val text: LiveData<String> = _text
 }

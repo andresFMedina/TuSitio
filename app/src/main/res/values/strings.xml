@@ -13,4 +13,6 @@
     <string name="menu_tools">Tools</string>
     <string name="menu_share">Share</string>
     <string name="menu_send">Send</string>
+    <string name="mensaje_de_error">Ha ocurrido un error</string>
+    <string name="reintentar">Reintentar</string>
 </resources>

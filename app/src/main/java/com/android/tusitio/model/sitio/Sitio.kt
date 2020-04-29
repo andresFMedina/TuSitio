@@ -2,7 +2,7 @@ package com.android.tusitio.model.sitio
 
 import com.android.tusitio.model.categoria.Categoria
 import com.android.tusitio.model.contacto.Contacto
-import com.android.tusitio.model.direccion.Direccion
+import com.android.tusitio.model.Direccion
 import java.io.Serializable
 
 class Sitio(): Serializable {

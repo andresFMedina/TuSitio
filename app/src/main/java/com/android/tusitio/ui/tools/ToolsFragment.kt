@@ -1,4 +1,4 @@
-package com.android.tusitio.view.tools
+package com.android.tusitio.ui.tools
 
 import android.os.Bundle
 import android.view.LayoutInflater
@@ -23,7 +23,7 @@ class ToolsFragment : Fragment() {
             ViewModelProviders.of(this).get(ToolsViewModel::class.java)
         val root = inflater.inflate(R.layout.fragment_tools, container, false)
         val textView: TextView = root.findViewById(R.id.text_tools)
-        toolsViewModel.text.observe(this, Observer {
+        toolsViewModel.text.observe(viewLifecycleOwner, Observer {
             textView.text = it
         })
         return root
